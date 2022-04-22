@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Image from '../Image/Image';
+import Header2 from '../Header2/Header2';
 
 import profileImageRoot from '../../../public/images/foto-arredondada.png';
 import whatsAppImageRoot from '../../../public/images/whatsapp-icon.png';
@@ -24,7 +25,8 @@ export default function Profile(){
             </figcaption>
 
             <div className="Profile-info">
-                <h2>WILLIAM BERG ARAUJO DIOGO</h2>
+                <Header2 text="WILLIAM BERG ARAUJO DIOGO" />
+
                 <p>Desenvolvedor Web Frontend - ReactJS</p>
                 <div className="Profile-medias">
                     <a href="https://github.com/williamberg123" target="_blank" rel="noreferrer">

@@ -10,3 +10,23 @@
     background-color: white;
     color: #7C1414;
 }
+
+@media (max-width: 700px) {
+    .Navigation-item a {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Navigation-item a {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .Navigation-item a {
+        padding: 8px 5px;
+    }
+}

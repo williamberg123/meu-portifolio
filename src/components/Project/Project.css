@@ -1,0 +1,50 @@
+.Project {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    min-width: 350px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 8px rgb(102, 102, 102);
+    padding: 20px 20px 0;
+    border-radius: 10px;
+}
+
+.Project .imageWithLink {
+    height: fit-content;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    position: relative;
+}
+
+.imageWithLink:hover .hidden {
+    display: flex;
+}
+
+.Project p {
+    margin: 10px 0;
+}
+
+.Project img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+.hidden {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    border-radius: 0 0 10px 10px;
+}

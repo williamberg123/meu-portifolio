@@ -29,6 +29,12 @@ module.exports = {
     'array-bracket-spacing': 'off',
     'max-len': 'off',
     'no-tabs': 'off',
-    'react/jsx-filename-extension': 'off'
+    'react/jsx-filename-extension': 'off',
+    'arrow-parens': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'no-trailing-spaces': 'off',
+    'array-callback-return': 'off',
+    'object-curly-newline': 'off',
+    'arrow-body-style': 'off'
   },
 };
