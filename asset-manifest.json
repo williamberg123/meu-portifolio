@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.e423e4ea.css",
-    "main.js": "/meu-portifolio/static/js/main.b3b6c9e3.js",
+    "main.css": "/meu-portifolio/static/css/main.c014d335.css",
+    "main.js": "/meu-portifolio/static/js/main.8d52e1e3.js",
     "static/media/restaurante.webm": "/meu-portifolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/meu-portifolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
-    "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.1a0033236a3ca8ba8036.webm",
     "static/media/to-do-list.webm": "/meu-portifolio/static/media/to-do-list.d0d3ca946b1e181e09a2.webm",
+    "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
     "static/media/foto-arredondada.png": "/meu-portifolio/static/media/foto-arredondada.72c2cf4639d752a2027f.png",
-    "static/media/whatsapp-icon.png": "/meu-portifolio/static/media/whatsapp-icon.6996e1418f6be2ed0e37.png",
-    "static/media/instagram-icon.png": "/meu-portifolio/static/media/instagram-icon.22c906e7c815dbb2c929.png",
-    "static/media/linkedin-icon.png": "/meu-portifolio/static/media/linkedin-icon.1e1a4d5d393a61ebb9c7.png",
     "index.html": "/meu-portifolio/index.html",
-    "main.e423e4ea.css.map": "/meu-portifolio/static/css/main.e423e4ea.css.map",
-    "main.b3b6c9e3.js.map": "/meu-portifolio/static/js/main.b3b6c9e3.js.map"
+    "main.c014d335.css.map": "/meu-portifolio/static/css/main.c014d335.css.map",
+    "main.8d52e1e3.js.map": "/meu-portifolio/static/js/main.8d52e1e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e423e4ea.css",
-    "static/js/main.b3b6c9e3.js"
+    "static/css/main.c014d335.css",
+    "static/js/main.8d52e1e3.js"
   ]
 }
