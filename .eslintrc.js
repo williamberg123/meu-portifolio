@@ -36,6 +36,7 @@ module.exports = {
     'array-callback-return': 'off',
     'object-curly-newline': 'off',
     'arrow-body-style': 'off',
-    'no-alert': 'off'
+    'no-alert': 'off',
+    'react/jsx-props-no-spreading': 'off'
   },
 };

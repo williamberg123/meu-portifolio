@@ -1,0 +1,27 @@
+.Ability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px 50px;
+    box-shadow: 2px 2px 7px rgb(102, 102, 102);
+    border-radius: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.Ability svg {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.Ability:hover {
+    background-color: black;
+    color: white;
+}
+
+.Ability:hover svg {
+    fill: white;
+}

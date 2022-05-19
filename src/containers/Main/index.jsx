@@ -4,6 +4,7 @@ import Profile from '../../components/Profile';
 import ParagraphsDiv from '../../components/ParagraphsDiv';
 import Heading2 from '../../components/Heading2';
 import ProjectsContainer from '../ProjectsContainer';
+import AbilitysContainer from '../AbilitysContainer';
 
 import './style.css';
 
@@ -24,6 +25,7 @@ export default function Main(){
 
             <section>
                 <Heading2 text="habilidades" />
+                <AbilitysContainer />
             </section>
         </main>
     );

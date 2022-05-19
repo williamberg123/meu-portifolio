@@ -45,17 +45,20 @@
 }
 
 .Profile-medias a {
-    width: 40px;
+    width: fit-content;
+}
+
+.Profile-medias a svg {
+    width: 35px;
+    height: 35px;
+    fill: black;
     margin-right: 35px;
 }
 
-.Profile-medias a img {
-    width: 100%;
-}
-
 @media (max-width: 1000px) {
-    .Profile-medias a {
+    .Profile-medias a svg {
         width: 30px;
+        height: 30px;
         margin-right: 25px;
     }
 }
@@ -109,7 +112,7 @@
         justify-content: space-between;
     }
     
-    .Profile-medias a {
+    .Profile-medias a svg {
         margin: 0;
     }
 }
@@ -127,7 +130,8 @@
         font-size: 0.7rem;
     }
 
-    .Profile-medias a {
+    .Profile-medias a svg {
         width: 25px;
+        height: 25px;
     }
 }
