@@ -1,0 +1,21 @@
+.ParagraphsDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.ParagraphsDiv p {
+    text-indent: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.red-span {
+    color: #7C1414;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .ParagraphsDiv p {
+        font-size: 1.2rem;
+    }
+}

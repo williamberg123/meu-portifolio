@@ -35,6 +35,7 @@ module.exports = {
     'no-trailing-spaces': 'off',
     'array-callback-return': 'off',
     'object-curly-newline': 'off',
-    'arrow-body-style': 'off'
+    'arrow-body-style': 'off',
+    'no-alert': 'off'
   },
 };
