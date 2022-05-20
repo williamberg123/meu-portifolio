@@ -12,7 +12,7 @@ import './style.css';
 
 export default function Profile(){
     return (
-        <div className="Profile">
+        <div id="sobre-mim" className="Profile">
             <figure>
                 <Image
                     imageRoot={profileImageRoot}

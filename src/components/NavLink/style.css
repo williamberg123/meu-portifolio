@@ -11,17 +11,17 @@
     color: #7C1414;
 }
 
-@media (max-width: 700px) {
-    .Navigation-item a {
-        font-size: 0.8rem;
-        padding: 8px 10px;
-        border-radius: 5px;
+@media (max-width: 600px) {
+    .Navigation-item {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
-}
 
-@media (max-width: 500px) {
     .Navigation-item a {
-        font-size: 0.5rem;
+        width: 100%;
+        border-radius: 0;
     }
 }
 

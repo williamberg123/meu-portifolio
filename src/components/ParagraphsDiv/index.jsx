@@ -19,7 +19,7 @@ export default function ParagraphsDiv(){
             </p>
             
             <p>Mas agora partindo para o que realmente interessa, logo abaixo mostro minhas habilidades e projetos
-               desenvolvidos ao longo de mais de 7 meses de dedicação.
+               desenvolvidos ao longo de mais de 1 ano de dedicação.
             </p>
         </div>
     );

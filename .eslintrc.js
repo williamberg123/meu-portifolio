@@ -37,6 +37,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'arrow-body-style': 'off',
     'no-alert': 'off',
-    'react/jsx-props-no-spreading': 'off'
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-curly-spacing': 'off'
   },
 };

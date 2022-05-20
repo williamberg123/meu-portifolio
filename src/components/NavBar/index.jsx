@@ -6,19 +6,20 @@ import './style.css';
 
 export default function NavBar(){
     const [ navBarConfigData ] = useState([
-        {linkText: 'sobre mim', heightToScroll: 100},
-        {linkText: 'experiência', heightToScroll: 200},
-        {linkText: 'projetos', heightToScroll: 300},
-        {linkText: 'habilidades', heightToScroll: 400},
-        {linkText: 'contato', heightToScroll: 500}
+        {linkText: 'sobre mim', idToScroll: 'sobre-mim'},
+        {linkText: 'experiência', idToScroll: 'experiencia'},
+        {linkText: 'projetos', idToScroll: 'projetos'},
+        {linkText: 'habilidades', idToScroll: 'habilidades'}
     ]);
 
-    const handleClickLink = (e, heightToScroll) => {
+    const handleClickLink = (e, idToScroll) => {
         e.preventDefault();
-        alert(`Altura do scroll: ${heightToScroll}`);
+        document.querySelector(`#${idToScroll}`).scrollIntoView({
+            behavior: 'smooth'
+        });
     };
 
-    const navBarHtml = navBarConfigData.map(({linkText, heightToScroll}) => <NavLink handleClickLink={e => handleClickLink(e, heightToScroll)} key={linkText} linkText={linkText} />);
+    const navBarHtml = navBarConfigData.map(({linkText, idToScroll}) => <NavLink handleClickLink={e => handleClickLink(e, idToScroll)} key={linkText} linkText={linkText} />);
 
     return (
         <nav className="NavBar">
