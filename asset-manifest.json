@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.c014d335.css",
-    "main.js": "/meu-portifolio/static/js/main.8d52e1e3.js",
+    "main.css": "/meu-portifolio/static/css/main.3ba01fb0.css",
+    "main.js": "/meu-portifolio/static/js/main.bb7a7e17.js",
     "static/media/restaurante.webm": "/meu-portifolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/meu-portifolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
     "static/media/to-do-list.webm": "/meu-portifolio/static/media/to-do-list.d0d3ca946b1e181e09a2.webm",
     "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
     "static/media/foto-arredondada.png": "/meu-portifolio/static/media/foto-arredondada.72c2cf4639d752a2027f.png",
     "index.html": "/meu-portifolio/index.html",
-    "main.c014d335.css.map": "/meu-portifolio/static/css/main.c014d335.css.map",
-    "main.8d52e1e3.js.map": "/meu-portifolio/static/js/main.8d52e1e3.js.map"
+    "main.3ba01fb0.css.map": "/meu-portifolio/static/css/main.3ba01fb0.css.map",
+    "main.bb7a7e17.js.map": "/meu-portifolio/static/js/main.bb7a7e17.js.map"
   },
   "entrypoints": [
-    "static/css/main.c014d335.css",
-    "static/js/main.8d52e1e3.js"
+    "static/css/main.3ba01fb0.css",
+    "static/js/main.bb7a7e17.js"
   ]
 }
