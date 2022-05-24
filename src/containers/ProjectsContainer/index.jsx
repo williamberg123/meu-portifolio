@@ -33,6 +33,13 @@ export default function ProjectsContainer(){
             linkToProject: 'https://williamberg123.github.io/todolist-react/',
             linkToRepository: 'https://github.com/williamberg123/todolist-react',
             videoToRender: 'toDoList'
+        },
+        {
+            name: 'App Clima',
+            description: 'Acesse as informações do clima da sua cidade, como temperatura atual, mínima e máxima e umidade do ar.',
+            linkToProject: 'https://williamberg123.github.io/previsao-tempo/',
+            linkToRepository: 'https://github.com/williamberg123/previsao-tempo',
+            videoToRender: 'appClima'
         }
     ]);
 

@@ -11,13 +11,15 @@ import rickAndMortyVideoSrc from '../../videos/rick-and-morty.webm';
 import restaurantVideoSrc from '../../videos/restaurante.webm';
 import jogoDaVelhaVideoSrc from '../../videos/jogo-da-velha.webm';
 import toDoListVideoSrc from '../../videos/to-do-list.webm';
+import appClimaVideoSrc from '../../videos/previsao-do-tempo.webm';
 
 export default function Project({ title, description, linkToProject, linkToRepository, videoToRender }){
     const [ videosRootArray ] = useState({
         rickAndMorty: rickAndMortyVideoSrc,
         restaurant: restaurantVideoSrc,
         jogodavelha: jogoDaVelhaVideoSrc,
-        toDoList: toDoListVideoSrc
+        toDoList: toDoListVideoSrc,
+        appClima: appClimaVideoSrc
     });
 
     return (
