@@ -1,13 +1,22 @@
 .Ability {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    padding: 20px 50px;
+    padding: 0 20px;
     box-shadow: 2px 2px 7px rgb(102, 102, 102);
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.4s;
     text-transform: uppercase;
+}
+
+.Ability summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 20px;
 }
 
 .Ability svg {
@@ -24,4 +33,17 @@
 
 .Ability:hover svg {
     fill: white;
+}
+
+.Ability-name {
+    display: flex;
+    align-items: center;
+}
+
+.Ability-description {
+    display: block;
+    font-size: 0.7rem;
+    color: rgb(114, 114, 114);
+    transition: 0.4s;
+    padding-bottom: 20px;
 }

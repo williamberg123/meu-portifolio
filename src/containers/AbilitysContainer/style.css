@@ -4,3 +4,9 @@
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+@media (max-width: 350px) {
+    .AbilitysContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

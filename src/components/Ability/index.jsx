@@ -5,7 +5,7 @@ import { FaReact, FaJs, FaHtml5, FaCss3, FaGitAlt, FaGithub } from 'react-icons/
 
 import './style.css';
 
-export default function Ability({ text, whichAbility }) {
+export default function Ability({ text, whichAbility, description }) {
     const [ abilitysIcons ] = useState({
         react: <FaReact />,
         javascript: <FaJs />,
@@ -16,14 +16,20 @@ export default function Ability({ text, whichAbility }) {
     });
 
     return (
-        <div className="Ability">
-            {abilitysIcons[whichAbility]}
-            {text}
-        </div>
+        <details className="Ability">
+            <summary>
+                <div className="Ability-name">
+                    {abilitysIcons[whichAbility]}
+                    <p>{text}</p>
+                </div>
+            </summary>
+            <p className="Ability-description">{description}</p>
+        </details>
     );
 }
 
 Ability.propTypes = {
     text: PropTypes.string.isRequired,
-    whichAbility: PropTypes.string.isRequired
+    whichAbility: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
 };

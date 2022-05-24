@@ -38,6 +38,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'no-alert': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-curly-spacing': 'off'
+    'react/jsx-curly-spacing': 'off',
+    'react/require-default-props': 'off'
   },
 };
