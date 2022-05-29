@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.2dbcdbd4.css",
+    "main.css": "/meu-portifolio/static/css/main.2ef4487f.css",
     "main.js": "/meu-portifolio/static/js/main.d8ccabb1.js",
     "static/media/restaurante.webm": "/meu-portifolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/meu-portifolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
@@ -10,11 +10,11 @@
     "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
     "static/media/foto-arredondada.png": "/meu-portifolio/static/media/foto-arredondada.72c2cf4639d752a2027f.png",
     "index.html": "/meu-portifolio/index.html",
-    "main.2dbcdbd4.css.map": "/meu-portifolio/static/css/main.2dbcdbd4.css.map",
+    "main.2ef4487f.css.map": "/meu-portifolio/static/css/main.2ef4487f.css.map",
     "main.d8ccabb1.js.map": "/meu-portifolio/static/js/main.d8ccabb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dbcdbd4.css",
+    "static/css/main.2ef4487f.css",
     "static/js/main.d8ccabb1.js"
   ]
 }
