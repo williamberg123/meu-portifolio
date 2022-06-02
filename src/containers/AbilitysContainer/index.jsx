@@ -19,7 +19,7 @@ export default function AbilitysContainer() {
         {
             text: 'javascript',
             whichAbility: 'javascript',
-            description: 'Linguagem de programação entendida pelo browser, utilizada para dar interatividade ao sistema. Originalmente criada para ser uma linguagem client side (que roda do lado do cliente), mas que com o tempo foi implementada também do lado do servidor(server side).'
+            description: 'Linguagem de programação entendida pelo browser, utilizada para dar interatividade ao sistema.Originalmente criada para ser uma linguagem client side (que roda do lado do cliente), mas que com o tempo foi implementada também do lado do servidor(server side).'
         },
         {
             text: 'git',
@@ -34,7 +34,7 @@ export default function AbilitysContainer() {
         {
             text: 'react',
             whichAbility: 'react',
-            description: 'Lib de desenvolvimento de interfaces Frontend, criada pelo grupo do Facebook em 2013. '
+            description: 'Lib de desenvolvimento de interfaces Frontend, criada pelo grupo do Facebook em 2011. '
         }
     ]);
 
