@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 
-import { RiMenuFill } from 'react-icons/ri';
+import { HiMenuAlt1 } from 'react-icons/hi';
 
 import Profile from '../../components/Profile';
 import ParagraphsDiv from '../../components/ParagraphsDiv';
@@ -27,11 +27,11 @@ export default function Main(){
             menuNavBar.style.width = 0;
         }
     }, [isMenuOpen]);
-    
+
     return (
         <main className="Main">
             <RenderIf isTrue={ bodyWidth <= 600 }>
-                <RiMenuFill onClick={toggleHamburguerMenu} className="menu-hamburguer" />
+                <HiMenuAlt1 onClick={toggleHamburguerMenu} className="menu-hamburguer" />
             </RenderIf>
             <Profile />
             <ParagraphsDiv classToElement="ParagraphsAboutMe">
@@ -47,7 +47,7 @@ export default function Main(){
                     um curso técnico integrado de Redes de computadores e tínhamos matérias que envolviam a mesma. Com o tempo,
                     resolvi me especializar na área de desenvolvimento web Frontend.
                 </p>
-                
+
                 <p>Mas agora partindo para o que realmente interessa, logo abaixo mostro minhas habilidades e projetos
                 desenvolvidos ao longo de mais de 1 ano de dedicação.
                 </p>
@@ -71,7 +71,7 @@ export default function Main(){
                         Manipulações da DOM, requisições fetch/axios, display flex e grid, layout responsivo e organização de código são alguns das
                         habilidades que domino.
                     </p>
-                    
+
                     <p>
                         Mas deixando um pouco de lado a explicação, bora pros projetos que é aqui que eu confirmo o que estou
                         falando.

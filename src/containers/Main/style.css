@@ -7,8 +7,8 @@
 .menu-hamburguer {
     width: 40px;
     height: 40px;
-    box-shadow: 1px 1px 7px rgb(170, 170, 170);
     border-radius: 5px;
+	color: #7C1414;
 }
 
 @media (max-width: 600px) {
