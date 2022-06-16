@@ -1,12 +1,11 @@
 .Navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 30px auto;
     padding: 10px 20px;
     font-weight: bold;
-    background-color: #7C1414;
     list-style: none;
     border-radius: 20px;
 }

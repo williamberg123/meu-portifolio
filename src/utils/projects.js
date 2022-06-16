@@ -40,6 +40,13 @@ const projects = [
         linkToProject: 'https://williamberg123.github.io/soccer/',
         linkToRepository: 'https://github.com/williamberg123/soccer',
         videoToRender: 'soccer'
+    },
+	{
+        name: 'Game of Thrones',
+        description: 'Primeiro projeto desenvolvido usando o conceito de styled-components, onde consumo uma API da série Game oh Thrones.',
+        linkToProject: 'https://williamberg123.github.io/game-of-thrones/',
+        linkToRepository: 'https://github.com/williamberg123/game-of-thrones/',
+        videoToRender: 'got'
     }
 ];
 

@@ -6,7 +6,7 @@ import { SiGmail } from 'react-icons/si';
 import Image from '../Image';
 import Heading2 from '../Heading2';
 
-import profileImageRoot from '../../images/foto-arredondada.png';
+import profileImageRoot from '../../images/profile-image.jpg';
 
 import './style.css';
 

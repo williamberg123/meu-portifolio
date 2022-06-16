@@ -1,14 +1,17 @@
 .Navigation-item a {
-    color: white;
+    color: #7C1414;
     text-decoration: none;
     padding: 8px 20px;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: 0.3s;
+	font-weight: lighter;
+	margin: 0 10px;
 }
 
 .Navigation-item a:hover {
-    background-color: white;
-    color: #7C1414;
+    background-color: #7C1414;
+    color: white;
+	font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -23,6 +26,7 @@
         width: 100%;
         border-radius: 0;
         text-align: center;
+		color: white;
     }
 }
 

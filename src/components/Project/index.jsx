@@ -13,6 +13,7 @@ import jogoDaVelhaVideoSrc from '../../videos/jogo-da-velha.webm';
 import toDoListVideoSrc from '../../videos/to-do-list.webm';
 import appClimaVideoSrc from '../../videos/previsao-do-tempo.webm';
 import soccerVideoSrc from '../../videos/soccer.webm';
+import gotVideoSrc from '../../videos/game-of-thrones.webm';
 
 export default function Project({ title, description, linkToProject, linkToRepository, videoToRender }){
     const [ videosRootArray ] = useState({
@@ -21,7 +22,8 @@ export default function Project({ title, description, linkToProject, linkToRepos
         jogodavelha: jogoDaVelhaVideoSrc,
         toDoList: toDoListVideoSrc,
         appClima: appClimaVideoSrc,
-        soccer: soccerVideoSrc
+        soccer: soccerVideoSrc,
+		got: gotVideoSrc
     });
 
     return (
@@ -33,7 +35,7 @@ export default function Project({ title, description, linkToProject, linkToRepos
             <video autoPlay muted loop>
                 <source src={videosRootArray[`${videoToRender}`]} type="video/webm" />
             </video>
-                
+
         </div>
     );
 }

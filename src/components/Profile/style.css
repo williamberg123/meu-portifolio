@@ -9,12 +9,13 @@
 }
 
 .Profile figure {
-    width: 25%;
+    width: 300px;
 }
 
 .Profile figure img {
     width: 100%;
     aspect-ratio: 1/1;
+	border-radius: 50%;
 }
 
 .Profile-info {
@@ -78,7 +79,15 @@
 
 @media (max-width: 600px) {
     .Profile {
-        padding: 15px;
+        padding: 20px 0;
+    }
+
+	.Profile figure {
+		width: 200px;
+	}
+
+	.Profile-info {
+        padding-left: 20px;
     }
 
     .Profile-medias {
@@ -93,7 +102,7 @@
     }
 
     .Profile figure {
-        width: 180px;
+        width: 300px;
     }
 
     .Profile-info {
