@@ -39,6 +39,7 @@ module.exports = {
     'no-alert': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-curly-spacing': 'off',
-    'react/require-default-props': 'off'
+    'react/require-default-props': 'off',
+	'react/react-in-jsx-scope': 'off'
   },
 };

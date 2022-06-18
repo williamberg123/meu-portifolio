@@ -7,15 +7,11 @@ import projects from '../../utils/projects';
 import './style.css';
 
 export default function ProjectsContainer(){
-    const htmlGenerating = projects.map(({ name, description, linkToProject, linkToRepository, videoToRender }) => {
+    const htmlGenerating = projects.map((project) => {
         return (
             <Project
-                title={name}
-                description={description}
-                linkToProject={linkToProject}
-                linkToRepository={linkToRepository}
-                key={name}
-                videoToRender={videoToRender}
+				{...project}
+                key={project.name}
             />
         );
     });

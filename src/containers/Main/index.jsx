@@ -58,7 +58,7 @@ export default function Main(){
                 <AbilitysContainer />
             </section>
 
-            <section>
+            {/* <section>
                 <Heading2 elementId="experiencia" text="experiência" />
                 <ParagraphsDiv classToElement="ParagraphsExperience">
                     <p>
@@ -78,7 +78,7 @@ export default function Main(){
                     </p>
                 </ParagraphsDiv>
 
-            </section>
+            </section> */}
 
             <section>
                 <Heading2 elementId="projetos" text="projetos" />
