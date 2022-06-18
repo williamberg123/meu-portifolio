@@ -1,7 +1,7 @@
 import rickAndMortyVideo from '../videos/rick-and-morty.webm';
 import restaurantVideo from '../videos/restaurante.webm';
 import jogoDaVelhaVideo from '../videos/jogo-da-velha.webm';
-import toDoListVideo from '../videos/to-do-list.webm';
+// import toDoListVideo from '../videos/to-do-list.webm';
 import appClimaVideo from '../videos/previsao-do-tempo.webm';
 import soccerVideo from '../videos/soccer.webm';
 import gotVideo from '../videos/game-of-thrones.webm';
@@ -29,13 +29,13 @@ const projects = [
         linkToRepository: 'https://github.com/williamberg123/jogo-da-velha/',
         videoToRender: jogoDaVelhaVideo
     },
-    {
-        name: 'ToDo List App',
-        description: 'Cansado de ter que fazer listas no papel? Aqui está sua solução, experimente e use em seu dia a dia.',
-        linkToProject: 'https://williamberg123.github.io/todolist-react/',
-        linkToRepository: 'https://github.com/williamberg123/todolist-react',
-        videoToRender: toDoListVideo
-    },
+    // {
+    //     name: 'ToDo List App',
+    //     description: 'Cansado de ter que fazer listas no papel? Aqui está sua solução, experimente e use em seu dia a dia.',
+    //     linkToProject: 'https://williamberg123.github.io/todolist-react/',
+    //     linkToRepository: 'https://github.com/williamberg123/todolist-react',
+    //     videoToRender: toDoListVideo
+    // },
     {
         name: 'App Clima',
         description: 'Acesse as informações do clima da sua cidade, como temperatura atual, mínima e máxima e umidade do ar.',

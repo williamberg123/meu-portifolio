@@ -10,7 +10,6 @@ export default function NavBar(){
     const [ navBarConfigData ] = useState([
         {linkText: 'sobre mim', idToScroll: 'sobre-mim'},
         {linkText: 'habilidades', idToScroll: 'habilidades'},
-        {linkText: 'experiência', idToScroll: 'experiencia'},
         {linkText: 'projetos', idToScroll: 'projetos'}
     ]);
 
