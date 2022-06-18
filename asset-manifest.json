@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.f8463d27.css",
-    "main.js": "/meu-portifolio/static/js/main.431a9cdf.js",
+    "main.css": "/meu-portifolio/static/css/main.4d21de24.css",
+    "main.js": "/meu-portifolio/static/js/main.b56a744a.js",
     "static/media/restaurante.webm": "/meu-portifolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/meu-portifolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
     "static/media/soccer.webm": "/meu-portifolio/static/media/soccer.2a4302ad94e540466313.webm",
@@ -10,12 +10,13 @@
     "static/media/to-do-list.webm": "/meu-portifolio/static/media/to-do-list.d0d3ca946b1e181e09a2.webm",
     "static/media/previsao-do-tempo.webm": "/meu-portifolio/static/media/previsao-do-tempo.e7ea1f10a6bbf918c93d.webm",
     "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
+    "static/media/urna-eletronica.webm": "/meu-portifolio/static/media/urna-eletronica.94549a82f1e77fb70989.webm",
     "index.html": "/meu-portifolio/index.html",
-    "main.f8463d27.css.map": "/meu-portifolio/static/css/main.f8463d27.css.map",
-    "main.431a9cdf.js.map": "/meu-portifolio/static/js/main.431a9cdf.js.map"
+    "main.4d21de24.css.map": "/meu-portifolio/static/css/main.4d21de24.css.map",
+    "main.b56a744a.js.map": "/meu-portifolio/static/js/main.b56a744a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8463d27.css",
-    "static/js/main.431a9cdf.js"
+    "static/css/main.4d21de24.css",
+    "static/js/main.b56a744a.js"
   ]
 }
