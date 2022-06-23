@@ -4,7 +4,7 @@ import jogoDaVelhaVideo from '../videos/jogo-da-velha.webm';
 // import toDoListVideo from '../videos/to-do-list.webm';
 import appClimaVideo from '../videos/previsao-do-tempo.webm';
 import soccerVideo from '../videos/soccer.webm';
-import gotVideo from '../videos/game-of-thrones.webm';
+// import gotVideo from '../videos/game-of-thrones.webm';
 import urnaVideo from '../videos/urna-eletronica.webm';
 
 const projects = [
@@ -50,13 +50,13 @@ const projects = [
         linkToRepository: 'https://github.com/williamberg123/soccer',
         videoToRender: soccerVideo
     },
-	{
-        name: 'Game of Thrones',
-        description: 'Primeiro projeto desenvolvido usando o conceito de styled-components, onde consumo uma API da série Game oh Thrones.',
-        linkToProject: 'https://williamberg123.github.io/game-of-thrones/',
-        linkToRepository: 'https://github.com/williamberg123/game-of-thrones/',
-        videoToRender: gotVideo
-    },
+	// {
+    //     name: 'Game of Thrones',
+    //     description: 'Primeiro projeto desenvolvido usando o conceito de styled-components, onde consumo uma API da série Game oh Thrones.',
+    //     linkToProject: 'https://williamberg123.github.io/game-of-thrones/',
+    //     linkToRepository: 'https://github.com/williamberg123/game-of-thrones/',
+    //     videoToRender: gotVideo
+    // },
 	{
         name: 'Simulador de Urna',
         description: 'Simule um processo de votação real aqui! Projeto desenvolvido para fins somente de estudo, nenhum dado seu é armazenado.',

@@ -23,7 +23,7 @@ export default function Profile(){
             <div className="Profile-info">
                 <Heading2 text="WILLIAM BERG ARAUJO DIOGO" />
 
-                <p>Desenvolvedor Web Frontend - React</p>
+                <p>Desenvolvedor Frontend - React</p>
                 <div className="Profile-medias">
                     <a href="https://github.com/williamberg123" target="_blank" rel="noreferrer">
                         <FaGithub />
