@@ -1,11 +1,10 @@
 import React from 'react';
-
 import PropTypes from 'prop-types';
 
-import './style.css';
+import StyledHeading3 from './styles';
 
 export default function Heading3({ text }){
-    return <h3 className="Header3">{text.toUpperCase()}</h3>;
+    return <StyledHeading3 className="Header3">{text.toUpperCase()}</StyledHeading3>;
 }
 
 Heading3.propTypes = {

@@ -1,18 +1,19 @@
 import React from 'react';
 
 import PropTypes from 'prop-types';
+import StyledNavLink from './styles';
 
-import './style.css';
+export default function NavLink(props) {
+	const { linkText, handleClickLink } = props;
 
-export default function NavLink(props){
-    const { linkText, handleClickLink } = props;
-
-    return (
-        <li className="Navigation-item"><a onClick={handleClickLink} href={linkText}>{linkText.toUpperCase()}</a></li>
-    );
+	return (
+		<StyledNavLink>
+			<a onClick={handleClickLink} href={linkText}>{linkText.toUpperCase()}</a>
+		</StyledNavLink>
+	);
 }
 
 NavLink.propTypes = {
-    linkText: PropTypes.string.isRequired,
-    handleClickLink: PropTypes.func.isRequired
+	linkText: PropTypes.string.isRequired,
+	handleClickLink: PropTypes.func.isRequired
 };

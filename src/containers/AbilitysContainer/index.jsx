@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
 import Ability from '../../components/Ability';
-
-import './style.css';
+import StyledAbilitysContainer from './styles';
 
 export default function AbilitysContainer() {
     const [ abilitys ] = useState([
@@ -43,8 +42,8 @@ export default function AbilitysContainer() {
     });
 
     return (
-        <div className="AbilitysContainer">
+        <StyledAbilitysContainer>
             {children}
-        </div>
+        </StyledAbilitysContainer>
     );
 }

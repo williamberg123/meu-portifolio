@@ -2,12 +2,11 @@ import PropTypes from 'prop-types';
 
 import Header3 from '../Heading3';
 import Paragraph from '../Paragraph';
-
-import './style.css';
+import StyledProject from './styles';
 
 export default function Project({ name, description, linkToProject, linkToRepository, videoToRender }){
     return (
-        <div className="Project">
+        <StyledProject>
             <Header3 text={name} />
             <Paragraph paragraph={description} />
             Para testar: <a href={linkToProject} target="_blank" rel="noreferrer">{linkToProject}</a>
@@ -16,7 +15,7 @@ export default function Project({ name, description, linkToProject, linkToReposi
                 <source src={videoToRender} type="video/webm" />
             </video>
 
-        </div>
+        </StyledProject>
     );
 }
 

@@ -8,32 +8,31 @@ import Heading2 from '../../components/Heading2';
 import ProjectsContainer from '../ProjectsContainer';
 import AbilitysContainer from '../AbilitysContainer';
 import RenderIf from '../../components/RenderIf';
+import ResumeButton from '../../components/ResumeButton';
 
-import HomeContext from '../../templates/Home/HomeContext';
-
-import './style.css';
+import HomeContext from '../../contexts/HomeProvider/HomeContext';
+import StyledMain from './styles';
 
 export default function Main(){
-    const { bodyWidth, toggleHamburguerMenu, isMenuOpen } = useContext(HomeContext);
+    const { bodyWidth, toggleHamburguerMenu, isMenuOpen, menuBarRef } = useContext(HomeContext);
 
     useEffect(() => {
-        const menuNavBar = document.querySelector('.Navigation');
-
         if (isMenuOpen && bodyWidth <= 600) {
-            menuNavBar.style.display = 'flex';
-            menuNavBar.style.width = '60%';
+            menuBarRef.current.style.display = 'flex';
+            menuBarRef.current.style.width = '60%';
         } else if (bodyWidth <= 600) {
-            menuNavBar.style.display = 'none';
-            menuNavBar.style.width = 0;
+            menuBarRef.current.style.display = 'none';
+            menuBarRef.current.style.width = 0;
         }
     }, [isMenuOpen]);
 
     return (
-        <main className="Main">
+        <StyledMain>
             <RenderIf isTrue={ bodyWidth <= 600 }>
                 <HiMenuAlt1 onClick={toggleHamburguerMenu} className="menu-hamburguer" />
             </RenderIf>
             <Profile />
+			<ResumeButton />
             <ParagraphsDiv classToElement="ParagraphsAboutMe">
                 <p>
                     Olá, se você chegou até aqui provavelmente acessou o link por alguma das redes sociais que utilizo,
@@ -84,7 +83,6 @@ export default function Main(){
                 <Heading2 elementId="projetos" text="projetos" />
                 <ProjectsContainer />
             </section>
-
-        </main>
+        </StyledMain>
     );
 }

@@ -4,7 +4,7 @@ import Project from '../../components/Project';
 
 import projects from '../../utils/projects';
 
-import './style.css';
+import StyledProjectsContainer from './styles';
 
 export default function ProjectsContainer(){
     const htmlGenerating = projects.map((project) => {
@@ -17,8 +17,8 @@ export default function ProjectsContainer(){
     });
 
     return (
-        <div className="Container">
+        <StyledProjectsContainer>
             {htmlGenerating}
-        </div>
+        </StyledProjectsContainer>
     );
 }

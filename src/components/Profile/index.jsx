@@ -7,12 +7,11 @@ import Image from '../Image';
 import Heading2 from '../Heading2';
 
 import profileImageRoot from '../../images/profile-image.jpg';
-
-import './style.css';
+import StyledProfile from './styles';
 
 export default function Profile(){
     return (
-        <div id="sobre-mim" className="Profile">
+        <StyledProfile id="sobre-mim">
             <figure>
                 <Image
                     imageRoot={profileImageRoot}
@@ -42,6 +41,6 @@ export default function Profile(){
                     </a>
                 </div>
             </div>
-        </div>
+        </StyledProfile>
     );
 }

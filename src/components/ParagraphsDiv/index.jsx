@@ -1,13 +1,12 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-import './style.css';
+import StyledParagraphsDiv from './styles';
 
 export default function ParagraphsDiv({ children, classToElement }){
     return (
-        <div className={classToElement}>
+        <StyledParagraphsDiv className={classToElement}>
             {children}
-        </div>
+        </StyledParagraphsDiv>
     );
 }
 

@@ -1,10 +1,8 @@
 import React, { useState, useContext } from 'react';
 
 import NavLink from '../NavLink';
-
-import HomeContext from '../../templates/Home/HomeContext';
-
-import './style.css';
+import HomeContext from '../../contexts/HomeProvider/HomeContext';
+import StyledNavBar, { StyledList } from './styles';
 
 export default function NavBar(){
     const [ navBarConfigData ] = useState([
@@ -13,15 +11,15 @@ export default function NavBar(){
         {linkText: 'projetos', idToScroll: 'projetos'}
     ]);
 
-    const { handleClickLink } = useContext(HomeContext);
+    const { handleClickLink, menuBarRef } = useContext(HomeContext);
 
     const navBarHtml = navBarConfigData.map(({linkText, idToScroll}) => <NavLink handleClickLink={e => handleClickLink(e, idToScroll)} key={linkText} linkText={linkText} />);
 
     return (
-        <nav className="NavBar">
-            <ul className="Navigation">
+        <StyledNavBar>
+            <StyledList ref={menuBarRef}>
                 {navBarHtml}
-            </ul>
-        </nav>
+            </StyledList>
+        </StyledNavBar>
     );
 }
