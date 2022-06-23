@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/meu-portifolio/static/css/main.4d21de24.css",
-    "main.js": "/meu-portifolio/static/js/main.df0ff09c.js",
-    "static/media/restaurante.webm": "/meu-portifolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
-    "static/media/rick-and-morty.webm": "/meu-portifolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
-    "static/media/soccer.webm": "/meu-portifolio/static/media/soccer.2a4302ad94e540466313.webm",
-    "static/media/game-of-thrones.webm": "/meu-portifolio/static/media/game-of-thrones.28b3dc03935c04950001.webm",
-    "static/media/profile-image.jpg": "/meu-portifolio/static/media/profile-image.824418e809658732f681.jpg",
-    "static/media/previsao-do-tempo.webm": "/meu-portifolio/static/media/previsao-do-tempo.e7ea1f10a6bbf918c93d.webm",
-    "static/media/jogo-da-velha.webm": "/meu-portifolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
-    "static/media/urna-eletronica.webm": "/meu-portifolio/static/media/urna-eletronica.94549a82f1e77fb70989.webm",
-    "index.html": "/meu-portifolio/index.html",
-    "main.4d21de24.css.map": "/meu-portifolio/static/css/main.4d21de24.css.map",
-    "main.df0ff09c.js.map": "/meu-portifolio/static/js/main.df0ff09c.js.map"
+    "main.css": "/portfolio/static/css/main.a8067d2e.css",
+    "main.js": "/portfolio/static/js/main.3c029ba2.js",
+    "static/media/restaurante.webm": "/portfolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
+    "static/media/rick-and-morty.webm": "/portfolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
+    "static/media/soccer.webm": "/portfolio/static/media/soccer.2a4302ad94e540466313.webm",
+    "static/media/game-of-thrones.webm": "/portfolio/static/media/game-of-thrones.28b3dc03935c04950001.webm",
+    "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.824418e809658732f681.jpg",
+    "static/media/previsao-do-tempo.webm": "/portfolio/static/media/previsao-do-tempo.e7ea1f10a6bbf918c93d.webm",
+    "static/media/jogo-da-velha.webm": "/portfolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
+    "static/media/urna-eletronica.webm": "/portfolio/static/media/urna-eletronica.94549a82f1e77fb70989.webm",
+    "index.html": "/portfolio/index.html",
+    "main.a8067d2e.css.map": "/portfolio/static/css/main.a8067d2e.css.map",
+    "main.3c029ba2.js.map": "/portfolio/static/js/main.3c029ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d21de24.css",
-    "static/js/main.df0ff09c.js"
+    "static/css/main.a8067d2e.css",
+    "static/js/main.3c029ba2.js"
   ]
 }
