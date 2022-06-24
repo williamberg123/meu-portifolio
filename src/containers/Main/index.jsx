@@ -19,10 +19,8 @@ export default function Main(){
     useEffect(() => {
         if (isMenuOpen && bodyWidth <= 600) {
             menuBarRef.current.style.display = 'flex';
-            menuBarRef.current.style.width = '60%';
         } else if (bodyWidth <= 600) {
             menuBarRef.current.style.display = 'none';
-            menuBarRef.current.style.width = 0;
         }
     }, [isMenuOpen]);
 

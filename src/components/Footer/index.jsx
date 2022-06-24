@@ -6,7 +6,7 @@ import StyledFooter from './styles';
 
 export default function Footer() {
 	return (
-		<StyledFooter>
+		<StyledFooter id="footer-contatos">
 			<ul>
 				<li>
 					<a href="mailto:williamberg567@gmail.com" target="_blank" rel="noreferrer">
@@ -14,12 +14,12 @@ export default function Footer() {
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/william-berg-124826230/" target="_blank" rel="noreferrer">
+					<a href="https://www.linkedin.com/in/william-diogo/" target="_blank" rel="noreferrer">
 						<FaLinkedin /> William Diogo
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/williamberg123" target="_blank" rel="noreferrer">
+					<a href="https://github.com/williamberg123/" target="_blank" rel="noreferrer">
 						<FaGithub /> williamber123
 					</a>
 				</li>

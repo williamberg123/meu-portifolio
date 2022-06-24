@@ -12,6 +12,7 @@ const StyledResumeButton = styled.a`
 	margin-bottom: 20px;
 	cursor: pointer;
 	text-decoration: none;
+	animation: pulse 1s infinite;
 
 	& svg {
 		width: 15px;
@@ -22,6 +23,20 @@ const StyledResumeButton = styled.a`
 	&:hover {
 		background-color: #962e2e;
 		text-decoration: underline;
+	}
+
+	@keyframes pulse {
+		0% {
+			transform: scale(1);
+		}
+
+		50% {
+			transform: scale(1.05);
+		}
+
+		100% {
+			transform: scale(1);
+		}
 	}
 `;
 export default StyledResumeButton;

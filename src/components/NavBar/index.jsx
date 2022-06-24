@@ -8,7 +8,8 @@ export default function NavBar(){
     const [ navBarConfigData ] = useState([
         {linkText: 'sobre mim', idToScroll: 'sobre-mim'},
         {linkText: 'habilidades', idToScroll: 'habilidades'},
-        {linkText: 'projetos', idToScroll: 'projetos'}
+        {linkText: 'projetos', idToScroll: 'projetos'},
+        {linkText: 'contatos', idToScroll: 'footer-contatos'},
     ]);
 
     const { handleClickLink, menuBarRef } = useContext(HomeContext);

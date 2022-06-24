@@ -17,7 +17,7 @@ export const StyledList = styled.ul`
 		& {
 			background-color: #7c1414ef;
 			display: none;
-			width: 0;
+			width: 100%;
 			position: fixed;
 			right: 0;
 			top: -30px;
