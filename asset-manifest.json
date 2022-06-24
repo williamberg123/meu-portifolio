@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6dd5602c.css",
-    "main.js": "/portfolio/static/js/main.36ccfd7f.js",
+    "main.js": "/portfolio/static/js/main.1c66ecbb.js",
     "static/media/restaurante.webm": "/portfolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/portfolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
     "static/media/soccer.webm": "/portfolio/static/media/soccer.2a4302ad94e540466313.webm",
@@ -12,10 +12,10 @@
     "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.08c3353f2e88e9677c18.pdf",
     "index.html": "/portfolio/index.html",
     "main.6dd5602c.css.map": "/portfolio/static/css/main.6dd5602c.css.map",
-    "main.36ccfd7f.js.map": "/portfolio/static/js/main.36ccfd7f.js.map"
+    "main.1c66ecbb.js.map": "/portfolio/static/js/main.1c66ecbb.js.map"
   },
   "entrypoints": [
     "static/css/main.6dd5602c.css",
-    "static/js/main.36ccfd7f.js"
+    "static/js/main.1c66ecbb.js"
   ]
 }
