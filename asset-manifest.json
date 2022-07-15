@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6dd5602c.css",
-    "main.js": "/portfolio/static/js/main.1c66ecbb.js",
+    "main.js": "/portfolio/static/js/main.8764f333.js",
     "static/media/restaurante.webm": "/portfolio/static/media/restaurante.80ee1c0cda0a502dbe93.webm",
     "static/media/rick-and-morty.webm": "/portfolio/static/media/rick-and-morty.3cf7e62f3ff83e41663a.webm",
-    "static/media/soccer.webm": "/portfolio/static/media/soccer.2a4302ad94e540466313.webm",
     "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.824418e809658732f681.jpg",
     "static/media/previsao-do-tempo.webm": "/portfolio/static/media/previsao-do-tempo.e7ea1f10a6bbf918c93d.webm",
     "static/media/jogo-da-velha.webm": "/portfolio/static/media/jogo-da-velha.207adc85ddbcb279034e.webm",
     "static/media/urna-eletronica.webm": "/portfolio/static/media/urna-eletronica.94549a82f1e77fb70989.webm",
-    "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.08c3353f2e88e9677c18.pdf",
+    "static/media/curriculo.pdf": "/portfolio/static/media/curriculo.68dd9a3558b37990e8de.pdf",
     "index.html": "/portfolio/index.html",
     "main.6dd5602c.css.map": "/portfolio/static/css/main.6dd5602c.css.map",
-    "main.1c66ecbb.js.map": "/portfolio/static/js/main.1c66ecbb.js.map"
+    "main.8764f333.js.map": "/portfolio/static/js/main.8764f333.js.map"
   },
   "entrypoints": [
     "static/css/main.6dd5602c.css",
-    "static/js/main.1c66ecbb.js"
+    "static/js/main.8764f333.js"
   ]
 }
