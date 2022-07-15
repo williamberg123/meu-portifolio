@@ -20,7 +20,7 @@ export default function Footer() {
 				</li>
 				<li>
 					<a href="https://github.com/williamberg123/" target="_blank" rel="noreferrer">
-						<FaGithub /> williamber123
+						<FaGithub /> williamberg123
 					</a>
 				</li>
 				<li>

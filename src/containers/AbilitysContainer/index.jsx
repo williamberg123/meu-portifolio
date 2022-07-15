@@ -34,6 +34,11 @@ export default function AbilitysContainer() {
             text: 'react',
             whichAbility: 'react',
             description: 'Lib de desenvolvimento de interfaces Frontend, criada pelo grupo do Facebook em 2011. '
+        },
+		{
+            text: 'firebase',
+            whichAbility: 'firebase',
+            description: 'Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.'
         }
     ]);
 
