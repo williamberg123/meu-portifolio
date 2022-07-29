@@ -39,6 +39,11 @@ export default function AbilitysContainer() {
             text: 'firebase',
             whichAbility: 'firebase',
             description: 'Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.'
+        },
+		{
+            text: 'typescript',
+            whichAbility: 'typescript',
+            description: 'TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.'
         }
     ]);
 

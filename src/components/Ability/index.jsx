@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { FaReact, FaJs, FaHtml5, FaCss3, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiFirebase } from 'react-icons/si';
+import { SiFirebase, SiTypescript } from 'react-icons/si';
 
 import StyledAbility, { StyledSummary } from './styles';
 
@@ -14,7 +14,8 @@ export default function Ability({ text, whichAbility, description }) {
 		css: <FaCss3 />,
 		git: <FaGitAlt />,
 		github: <FaGithub />,
-		firebase: <SiFirebase />
+		firebase: <SiFirebase />,
+		typescript: <SiTypescript />
 	});
 
 	return (
